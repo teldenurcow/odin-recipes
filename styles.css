@@ -1,0 +1,58 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    padding: 0 5%;
+    background-color: #2a2a32;
+    color: #ffffff;
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+.header {
+    margin: 10px auto;
+    font-size: 3rem;
+    font-weight: bold;
+    font-family: 'Lucida Grande';
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+.ingredients {
+    list-style: disc;
+    text-align: left;
+    margin: 3px auto;
+    font-style: italic;
+}
+
+.ingredients li {
+    margin: 5px auto;
+}
+
+li  {
+    margin: 10px auto;
+}
+
+li a, li a:visited {
+    color: #ffffff;
+}
+
+li a:hover, li a:visited:hover {
+    color: #807c7c;
+}
+
+li a:active, li a:visited:active {
+    color: #000000;
+}
+img {
+    width: 80%;
+    height: auto;
+    margin: 0 10%;
+}
