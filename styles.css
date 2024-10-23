@@ -1,7 +1,10 @@
+html {
+    box-sizing: border-box;
+}
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+    box-sizing: inherit;
 }
 
 body {
@@ -13,8 +16,9 @@ body {
 }
 
 .header {
+    text-decoration-line: underline;
     margin: 10px auto;
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
     font-family: 'Lucida Grande';
     text-align: center;
@@ -33,26 +37,51 @@ ul {
 }
 
 .ingredients li {
-    margin: 5px auto;
+    margin: 5px 0;
 }
 
 li  {
-    margin: 10px auto;
+    margin: 7.5px auto;
 }
 
 li a, li a:visited {
+    display: inline-block;;
     color: #ffffff;
+    text-decoration: none;
+    background-color: #a82626;
+    padding: 25px 0;
+    width: 75%;
+    border-radius: 15px;
+    border: 4px solid #a82626;
+    font-size: 1.2rem;
 }
 
 li a:hover, li a:visited:hover {
-    color: #807c7c;
+    background-color: #7a1c1c;
+    border-color: #7a1c1c;
 }
 
 li a:active, li a:visited:active {
-    color: #000000;
+    background-color: #961010;
 }
+
 img {
     width: 80%;
     height: auto;
     margin: 0 10%;
+}
+
+
+h2 {
+text-align: center;
+text-decoration-line: underline;
+}
+
+h2:first-of-type {
+    margin-top: 75px;
+}
+
+.section {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #ffffff;
 }
